@@ -1,0 +1,477 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "ciclo_validacao_pre_pos",
+        "label": "Ciclo de valida\u00e7\u00e3o pr\u00e9 e p\u00f3s-jogo",
+        "nodes": [
+          "docs_semin_rio_2_recyclerush_questionario_pre_pos",
+          "docs_semin_rio_3_recyclerush_aplicacao_real",
+          "docs_semin_rio_3_recyclerush_sessao_dez_minutos",
+          "docs_semin_rio_3_recyclerush_resultado_25_90"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "docs/Semin\u00e1rio 3 - RecycleRush.pdf"
+      },
+      {
+        "id": "intervencao_pedagogica_recyclerush",
+        "label": "Interven\u00e7\u00e3o pedag\u00f3gica Recycle Rush",
+        "nodes": [
+          "docs_semin_rio_1_recyclerush_recycle_rush",
+          "docs_semin_rio_2_recyclerush_gameplay_interativo",
+          "docs_semin_rio_2_recyclerush_feedback_imediato",
+          "docs_semin_rio_2_recyclerush_metodologia_de_implementacao"
+        ],
+        "relation": "form",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "docs/Semin\u00e1rio 2 - RecycleRush.pdf"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "Recycle Rush",
+      "file_type": "concept",
+      "source_file": "docs/Semin\u00e1rio 1 - RecycleRush.pdf",
+      "source_location": "p. 5-6",
+      "source_url": null,
+      "captured_at": null,
+      "author": "gustavo mena",
+      "contributor": null,
+      "id": "docs_semin_rio_1_recyclerush_recycle_rush",
+      "community": 1,
+      "norm_label": "recycle rush"
+    },
+    {
+      "label": "Aprendizado l\u00fadico",
+      "file_type": "rationale",
+      "source_file": "docs/Semin\u00e1rio 1 - RecycleRush.pdf",
+      "source_location": "p. 2-5",
+      "source_url": null,
+      "captured_at": null,
+      "author": "gustavo mena",
+      "contributor": null,
+      "id": "docs_semin_rio_1_recyclerush_aprendizado_ludico",
+      "community": 1,
+      "norm_label": "aprendizado ludico"
+    },
+    {
+      "label": "Descarte incorreto de res\u00edduos",
+      "file_type": "concept",
+      "source_file": "docs/Semin\u00e1rio 1 - RecycleRush.pdf",
+      "source_location": "p. 2-4",
+      "source_url": null,
+      "captured_at": null,
+      "author": "gustavo mena",
+      "contributor": null,
+      "id": "docs_semin_rio_1_recyclerush_descarte_incorreto",
+      "community": 3,
+      "norm_label": "descarte incorreto de residuos"
+    },
+    {
+      "label": "Educa\u00e7\u00e3o ambiental infantil",
+      "file_type": "concept",
+      "source_file": "docs/Semin\u00e1rio 1 - RecycleRush.pdf",
+      "source_location": "p. 2-3",
+      "source_url": null,
+      "captured_at": null,
+      "author": "gustavo mena",
+      "contributor": null,
+      "id": "docs_semin_rio_1_recyclerush_educacao_ambiental",
+      "community": 3,
+      "norm_label": "educacao ambiental infantil"
+    },
+    {
+      "label": "Crian\u00e7as como agentes de mudan\u00e7a",
+      "file_type": "rationale",
+      "source_file": "docs/Semin\u00e1rio 1 - RecycleRush.pdf",
+      "source_location": "p. 2",
+      "source_url": null,
+      "captured_at": null,
+      "author": "gustavo mena",
+      "contributor": null,
+      "id": "docs_semin_rio_1_recyclerush_criancas_agentes_de_mudanca",
+      "community": 3,
+      "norm_label": "criancas como agentes de mudanca"
+    },
+    {
+      "label": "Metodologia de implementa\u00e7\u00e3o",
+      "file_type": "concept",
+      "source_file": "docs/Semin\u00e1rio 2 - RecycleRush.pdf",
+      "source_location": "p. 4",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "docs_semin_rio_2_recyclerush_metodologia_de_implementacao",
+      "community": 0,
+      "norm_label": "metodologia de implementacao"
+    },
+    {
+      "label": "Question\u00e1rio pr\u00e9 e p\u00f3s-jogo",
+      "file_type": "concept",
+      "source_file": "docs/Semin\u00e1rio 2 - RecycleRush.pdf",
+      "source_location": "p. 4, 7",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "docs_semin_rio_2_recyclerush_questionario_pre_pos",
+      "community": 0,
+      "norm_label": "questionario pre e pos-jogo"
+    },
+    {
+      "label": "Amostra de quatro crian\u00e7as",
+      "file_type": "concept",
+      "source_file": "docs/Semin\u00e1rio 3 - RecycleRush.pdf",
+      "source_location": "p. 2",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "docs_semin_rio_3_recyclerush_amostra_n4",
+      "community": 0,
+      "norm_label": "amostra de quatro criancas"
+    },
+    {
+      "label": "Sess\u00e3o mediada de dez minutos",
+      "file_type": "concept",
+      "source_file": "docs/Semin\u00e1rio 3 - RecycleRush.pdf",
+      "source_location": "p. 2",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "docs_semin_rio_3_recyclerush_sessao_dez_minutos",
+      "community": 0,
+      "norm_label": "sessao mediada de dez minutos"
+    },
+    {
+      "label": "Aplica\u00e7\u00e3o real com crian\u00e7as",
+      "file_type": "paper",
+      "source_file": "docs/Semin\u00e1rio 3 - RecycleRush.pdf",
+      "source_location": "p. 2",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "docs_semin_rio_3_recyclerush_aplicacao_real",
+      "community": 0,
+      "norm_label": "aplicacao real com criancas"
+    },
+    {
+      "label": "Taxa de acertos de 25% para 90%",
+      "file_type": "paper",
+      "source_file": "docs/Semin\u00e1rio 3 - RecycleRush.pdf",
+      "source_location": "p. 4, 6-7",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "docs_semin_rio_3_recyclerush_resultado_25_90",
+      "community": 0,
+      "norm_label": "taxa de acertos de 25% para 90%"
+    },
+    {
+      "label": "Debate p\u00f3s-jogo",
+      "file_type": "rationale",
+      "source_file": "docs/Semin\u00e1rio 2 - RecycleRush.pdf",
+      "source_location": "p. 4",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "docs_semin_rio_2_recyclerush_debate_pos_jogo",
+      "community": 0,
+      "norm_label": "debate pos-jogo"
+    },
+    {
+      "label": "Gameplay interativo",
+      "file_type": "concept",
+      "source_file": "docs/Semin\u00e1rio 2 - RecycleRush.pdf",
+      "source_location": "p. 3",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "docs_semin_rio_2_recyclerush_gameplay_interativo",
+      "community": 1,
+      "norm_label": "gameplay interativo"
+    },
+    {
+      "label": "Godot Engine",
+      "file_type": "concept",
+      "source_file": "docs/Semin\u00e1rio 2 - RecycleRush.pdf",
+      "source_location": "p. 3",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "docs_semin_rio_2_recyclerush_godot_engine",
+      "community": 1,
+      "norm_label": "godot engine"
+    },
+    {
+      "label": "Feedback imediato",
+      "file_type": "rationale",
+      "source_file": "docs/Semin\u00e1rio 2 - RecycleRush.pdf",
+      "source_location": "p. 3",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "docs_semin_rio_2_recyclerush_feedback_imediato",
+      "community": 1,
+      "norm_label": "feedback imediato"
+    },
+    {
+      "label": "Dificuldade com mec\u00e2nica e inimigos",
+      "file_type": "concept",
+      "source_file": "docs/Semin\u00e1rio 3 - RecycleRush.pdf",
+      "source_location": "p. 5-6",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "docs_semin_rio_3_recyclerush_dificuldade_mecanica",
+      "community": 2,
+      "norm_label": "dificuldade com mecanica e inimigos"
+    },
+    {
+      "label": "Potencial de expans\u00e3o",
+      "file_type": "concept",
+      "source_file": "docs/Semin\u00e1rio 3 - RecycleRush.pdf",
+      "source_location": "p. 6-7",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "docs_semin_rio_3_recyclerush_potencial_expansao",
+      "community": 2,
+      "norm_label": "potencial de expansao"
+    },
+    {
+      "label": "Ajuste de dificuldade",
+      "file_type": "rationale",
+      "source_file": "docs/Semin\u00e1rio 3 - RecycleRush.pdf",
+      "source_location": "p. 6-7",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "docs_semin_rio_3_recyclerush_ajuste_dificuldade",
+      "community": 2,
+      "norm_label": "ajuste de dificuldade"
+    },
+    {
+      "label": "Tutorial inicial",
+      "file_type": "rationale",
+      "source_file": "docs/Semin\u00e1rio 3 - RecycleRush.pdf",
+      "source_location": "p. 6",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "docs_semin_rio_3_recyclerush_tutorial_inicial",
+      "community": 2,
+      "norm_label": "tutorial inicial"
+    }
+  ],
+  "links": [
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/Semin\u00e1rio 1 - RecycleRush.pdf",
+      "source_location": "p. 2",
+      "weight": 1.0,
+      "source": "docs_semin_rio_1_recyclerush_educacao_ambiental",
+      "target": "docs_semin_rio_1_recyclerush_criancas_agentes_de_mudanca"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/Semin\u00e1rio 2 - RecycleRush.pdf",
+      "source_location": "p. 3",
+      "weight": 1.0,
+      "source": "docs_semin_rio_2_recyclerush_gameplay_interativo",
+      "target": "docs_semin_rio_1_recyclerush_recycle_rush"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/Semin\u00e1rio 3 - RecycleRush.pdf",
+      "source_location": "p. 2, 4",
+      "weight": 1.0,
+      "source": "docs_semin_rio_3_recyclerush_sessao_dez_minutos",
+      "target": "docs_semin_rio_3_recyclerush_resultado_25_90"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/Semin\u00e1rio 2 - RecycleRush.pdf",
+      "source_location": "p. 3",
+      "weight": 1.0,
+      "source": "docs_semin_rio_2_recyclerush_godot_engine",
+      "target": "docs_semin_rio_2_recyclerush_gameplay_interativo"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/Semin\u00e1rio 2 - RecycleRush.pdf",
+      "source_location": "p. 4",
+      "weight": 1.0,
+      "source": "docs_semin_rio_2_recyclerush_metodologia_de_implementacao",
+      "target": "docs_semin_rio_2_recyclerush_debate_pos_jogo"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/Semin\u00e1rio 2 - RecycleRush.pdf",
+      "source_location": "p. 4",
+      "weight": 1.0,
+      "source": "docs_semin_rio_2_recyclerush_metodologia_de_implementacao",
+      "target": "docs_semin_rio_2_recyclerush_questionario_pre_pos"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/Semin\u00e1rio 3 - RecycleRush.pdf",
+      "source_location": "p. 2-4",
+      "weight": 1.0,
+      "source": "docs_semin_rio_3_recyclerush_aplicacao_real",
+      "target": "docs_semin_rio_2_recyclerush_questionario_pre_pos"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/Semin\u00e1rio 1 - RecycleRush.pdf",
+      "source_location": "p. 5",
+      "weight": 1.0,
+      "source": "docs_semin_rio_1_recyclerush_aprendizado_ludico",
+      "target": "docs_semin_rio_1_recyclerush_recycle_rush"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/Semin\u00e1rio 1 - RecycleRush.pdf",
+      "source_location": "p. 2-4",
+      "weight": 1.0,
+      "source": "docs_semin_rio_1_recyclerush_descarte_incorreto",
+      "target": "docs_semin_rio_1_recyclerush_educacao_ambiental"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/Semin\u00e1rio 2 - RecycleRush.pdf",
+      "source_location": "p. 3",
+      "weight": 1.0,
+      "source": "docs_semin_rio_2_recyclerush_feedback_imediato",
+      "target": "docs_semin_rio_2_recyclerush_gameplay_interativo"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/Semin\u00e1rio 3 - RecycleRush.pdf",
+      "source_location": "p. 6-7",
+      "weight": 1.0,
+      "source": "docs_semin_rio_3_recyclerush_ajuste_dificuldade",
+      "target": "docs_semin_rio_3_recyclerush_potencial_expansao"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/Semin\u00e1rio 3 - RecycleRush.pdf",
+      "source_location": "p. 5-6",
+      "weight": 1.0,
+      "source": "docs_semin_rio_3_recyclerush_dificuldade_mecanica",
+      "target": "docs_semin_rio_3_recyclerush_ajuste_dificuldade"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/Semin\u00e1rio 3 - RecycleRush.pdf",
+      "source_location": "p. 5-6",
+      "weight": 1.0,
+      "source": "docs_semin_rio_3_recyclerush_dificuldade_mecanica",
+      "target": "docs_semin_rio_3_recyclerush_tutorial_inicial"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/Semin\u00e1rio 3 - RecycleRush.pdf",
+      "source_location": "p. 6-7",
+      "weight": 1.0,
+      "source": "docs_semin_rio_3_recyclerush_tutorial_inicial",
+      "target": "docs_semin_rio_3_recyclerush_potencial_expansao"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/Semin\u00e1rio 3 - RecycleRush.pdf",
+      "source_location": "p. 2",
+      "weight": 1.0,
+      "source": "docs_semin_rio_3_recyclerush_aplicacao_real",
+      "target": "docs_semin_rio_3_recyclerush_amostra_n4"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/Semin\u00e1rio 3 - RecycleRush.pdf",
+      "source_location": "p. 2",
+      "weight": 1.0,
+      "source": "docs_semin_rio_3_recyclerush_aplicacao_real",
+      "target": "docs_semin_rio_3_recyclerush_sessao_dez_minutos"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "ciclo_validacao_pre_pos",
+      "label": "Ciclo de valida\u00e7\u00e3o pr\u00e9 e p\u00f3s-jogo",
+      "nodes": [
+        "docs_semin_rio_2_recyclerush_questionario_pre_pos",
+        "docs_semin_rio_3_recyclerush_aplicacao_real",
+        "docs_semin_rio_3_recyclerush_sessao_dez_minutos",
+        "docs_semin_rio_3_recyclerush_resultado_25_90"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/Semin\u00e1rio 3 - RecycleRush.pdf"
+    },
+    {
+      "id": "intervencao_pedagogica_recyclerush",
+      "label": "Interven\u00e7\u00e3o pedag\u00f3gica Recycle Rush",
+      "nodes": [
+        "docs_semin_rio_1_recyclerush_recycle_rush",
+        "docs_semin_rio_2_recyclerush_gameplay_interativo",
+        "docs_semin_rio_2_recyclerush_feedback_imediato",
+        "docs_semin_rio_2_recyclerush_metodologia_de_implementacao"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/Semin\u00e1rio 2 - RecycleRush.pdf"
+    }
+  ]
+}

@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/GDScript-478CBF?logo=godot-engine&amp;logoColor=white" alt="GDScript">
   <img src="https://img.shields.io/badge/Plataforma-Windows%20x64-0078D6?logo=windows&amp;logoColor=white" alt="Windows x64">
   <img src="https://img.shields.io/badge/EdTech-Educa%C3%A7%C3%A3o%20Ambiental-2E7D32" alt="EdTech - Educação Ambiental">
-  <img src="https://img.shields.io/badge/Release-em%20prepara%C3%A7%C3%A3o-F9A825" alt="Release em preparação">
+  <img src="https://img.shields.io/badge/Release-Dispon%C3%ADvel-brightgreen" alt="Release Disponível">
 </p>
 
 <p align="center">
@@ -67,7 +67,7 @@ O jogador controla um pinguim em fases de plataforma 2D. Durante o percurso, enc
 
 ### Core loop
 
-**Explorar a fase → encontrar um resíduo → identificar o material → selecionar a lixeira correta → receber feedback → avançar e repetir**
+**Explorar a fase → encontrar um resíduu → identificar o material → selecionar a lixeira correta → receber feedback → avançar e repetir**
 
 1. **Exploração:** navegar pelo cenário, saltar entre plataformas e localizar os resíduos.
 2. **Classificação:** reconhecer papel, plástico, vidro, metal ou material orgânico.
@@ -92,7 +92,7 @@ O jogador controla um pinguim em fases de plataforma 2D. Durante o percurso, enc
 | **Entrada** | Ensinar movimento e salto com baixa carga cognitiva. | Tutorial identificado como prioridade após a aplicação. |
 | **Prática guiada** | Apresentar poucas categorias e feedback claro. | Progressão recomendada para a próxima iteração. |
 | **Desafio** | Introduzir obstáculos, inimigos e tempo de maneira gradual. | Balanceamento necessário nas fases iniciais. |
-| **Reflexão** | Retomar as escolhas em conversa ou questionário pós-jogo. | Etapa já utilizada no protocolo mediado. |
+| **Reflexão** | Retomar as escolhas em conversa ou questionário pós-jogo. | Etapa já utilizada no protocolo mediada. |
 
 Os testes revelaram um ponto importante: algumas crianças tiveram mais dificuldade com a **mecânica de plataforma e os inimigos** do que com o conteúdo ambiental. A principal evolução de UX planejada é, portanto, um tutorial inicial, seguida pelo ajuste das fases de entrada e pela revisão da faixa etária recomendada.
 
@@ -166,7 +166,7 @@ O pacote PCK está embutido no executável e reúne **282 entradas**, incluindo 
 
 ➡️ **[Acesse a página oficial de GitHub Releases](https://github.com/teixeirads/RecycleRush/releases)**
 
-> **Status atual:** a primeira Release pública ainda está em preparação. Enquanto a página não exibir uma versão com assets, não há um download público recomendado.
+> **Status atual:** A versão está disponível para download! Acesse a página de Releases e baixe o arquivo ZIP para começar a jogar.
 
 Quando a Release estiver disponível:
 
@@ -175,6 +175,8 @@ Quando a Release estiver disponível:
 3. Baixe o arquivo `RecycleRush.exe`.
 4. Verifique a origem e, quando disponível, compare o hash SHA-256 com o valor publicado na Release.
 5. Execute `RecycleRush.exe`. O Godot não precisa estar instalado para jogar o build exportado.
+
+> **Atenção:** O Windows pode exibir um aviso de segurança ao executar o jogo por ele não possuir uma assinatura digital. Para jogar, clique em **"Mais informações"** e depois em **"Executar assim mesmo"**.
 
 O executável distribuível ficará em **GitHub Releases** para separar o binário pesado do histórico do código-fonte, oferecer downloads versionados via HTTPS e reunir notas, hashes e arquivos de cada versão em um local rastreável. Isso melhora desempenho do repositório e segurança operacional, embora não substitua assinatura digital nem auditoria de licenças. Se a página estiver sem assets, evite cópias hospedadas por terceiros.
 

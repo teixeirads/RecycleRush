@@ -1,7 +1,7 @@
 [gd_scene format=4 uid="uid://blfc5gt03n5f1"]
 
-[ext_resource type="PackedScene" uid="uid://muedv0cci7xi" path="res://Entities/personagem.tscn" id="1_m0u81"]
-[ext_resource type="TileSet" uid="uid://bf1rabfwc81x2" path="res://Tiles/terrain.tres" id="2_ywpoi"]
+[ext_resource type="PackedScene" uid="uid://muedv0cci7xi" path="res://entities/personagem.tscn" id="1_m0u81"]
+[ext_resource type="TileSet" uid="uid://bf1rabfwc81x2" path="res://tiles/terrain.tres" id="2_ywpoi"]
 [ext_resource type="Texture2D" uid="uid://8b0ex7oap0f5" path="res://sprites/Seasonal Tilesets/2 - Autumn Forest/Background parts/6 - Distant_trees.png" id="3_3wvep"]
 [ext_resource type="Texture2D" uid="uid://bvvksdmsgivvt" path="res://sprites/Seasonal Tilesets/2 - Autumn Forest/Background parts/5 - Tree_row_BG_2.png" id="4_j5d8v"]
 [ext_resource type="Texture2D" uid="uid://didwr1sojayuy" path="res://sprites/Seasonal Tilesets/2 - Autumn Forest/Background parts/4 - Tree_row_BG_1.png" id="5_613ui"]
